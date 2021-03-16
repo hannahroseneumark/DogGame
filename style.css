@@ -1,0 +1,213 @@
+body {
+	background-color: darkgray;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#title {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	width: 754px;
+	background-color: #FFCC66;
+	top: -10px;
+}
+
+#game {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 750px;
+	background-color: #87CEFA;
+	background-image: url("images/star2.png");
+	background-size: 30px 30px;
+	border: solid 3px #fc6;
+	top:-6px;
+}
+
+#char {
+	position: absolute;
+	top: 150px;
+}
+
+#grass_layer1 {
+	position: absolute;
+	top:97px;
+	z-index: 10;
+}
+
+#grass_layer3 {
+	position: absolute;
+	top:75px;
+	z-index:5;
+	opacity: 0.8;
+}
+
+#cloud_layer1 {
+	position: absolute;
+	top:-5px;
+	left: 10px;
+	z-index: 10;
+}
+
+#cloud_layer1_1 {
+	position: absolute;
+	top:3px;
+	left:140px;
+	z-index: 10;
+}
+
+#cloud_layer1_2 {
+	position: absolute;
+	top:-2px;
+	left:270px;
+	z-index: 10;
+}
+
+#cloud_layer1_3 {
+	position: absolute;
+	top:0px;
+	left:420px;
+	z-index: 10;
+}
+
+#cloud_layer1_4 {
+	position: absolute;
+	top:-5px;
+	left:550px;
+	z-index: 10;
+}
+
+#cloud_layer2 {
+	position: absolute;
+	top:4px;
+	z-index:5;
+	opacity: 0.8;
+}
+
+#cloud_layer2_1 {
+	position: absolute;
+	left:190px;
+	z-index:5;
+	opacity: 0.8;
+}
+
+#cloud_layer2_2 {
+	position: absolute;
+	top:12px;
+	left: 380px;
+	z-index:5;
+	opacity: 0.8;
+}
+
+#cloud_layer2_3 {
+	position: absolute;
+	left: 570px;
+	z-index:5;
+	opacity: 0.8;
+}
+
+#squirrel1 {
+	position: absolute;
+	left:80px;
+	top: 300px;
+	z-index: 6;
+}
+
+#squirrel2 {
+	position: absolute;
+	left: 260px;
+	top:300px;
+	z-index: 6;
+}
+
+#squirrel3 {
+	position: absolute;
+	left: 360px;
+	top: 300px;
+	z-index: 6;
+}
+
+#squirrel4 {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	z-index: 6;
+}
+
+p {
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+	line-height: 3px;
+	top:15px;
+}
+
+#p_title {
+	font-size: 20px;
+}
+
+#bird1 {
+	position: absolute;
+	left:150px;
+	z-index: 6;
+}
+
+#bird2 {
+	position: absolute;
+	left: 300px;
+	z-index: 6;
+}
+
+#bird_layer2_1 {
+	position: absolute;
+	left: 400px;
+	z-index: 6;
+}
+
+#bird_layer2_2 {
+	position: absolute;
+	left: 530px;
+	z-index: 6;
+}
+
+.arrows {
+  width: 0; 
+  height: 0; 
+  position: absolute;
+}
+
+#arrow-up{
+	top: 405px;
+	left: 33px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 30px solid black; 
+}
+
+#arrow-down {
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #000;
+	top: 485px;
+	left: 33px;
+}
+
+#arrow-right {
+	top: 440px;
+	left: 74px;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	border-left: 30px solid #000;
+}
+
+#arrow-left {
+	top: 440px;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	border-right: 30px solid #000;
+}
+
